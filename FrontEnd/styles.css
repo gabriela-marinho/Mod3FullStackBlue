@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    width: 100%;
+}
+.card-img-top {
+    width: 50% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+.nome {
+   
+    position: absolute;
+    width: 59px;
+    height: 23px;
+    left: 407px;
+    top: 114px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #485460;
+
+}
+.genero{
+    
+    position: absolute;
+    width: 69px;
+    height: 23px;
+    left: 407px;
+    top: 224px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #485460;
+}
+
+.imagem{
+    position: absolute;
+    width: 79px;
+    height: 23px;
+    left: 792px;
+    top: 114px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #485460;
+}
+
+.nota{
+    position: absolute;
+    width: 48px;
+    height: 23px;
+    left: 792px;
+    top: 224px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #485460;
+
+}
+
+
